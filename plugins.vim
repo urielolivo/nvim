@@ -1,5 +1,7 @@
 call plug#begin('~/.local/share/nvim/plugged')
 
+
+
 Plug 'sainnhe/sonokai'
 Plug 'itchyny/lightline.vim'
 Plug  'maximbaz/lightiline-ale'
