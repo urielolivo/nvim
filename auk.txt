@@ -1,0 +1,24 @@
+let g:lightline = {
+ 13       \ 'colorscheme': 'one',
+ 14       \ 'active': {
+ 15       \   'left': [ [ 'mode', 'paste' ],
+ 16       \             ['filename', 'readonly', 'modified' ],
+ 17       \             [ 'gitdiff' ] ],
+ 18       \   'right': [ [ 'lineinfo' ],
+ 19       \              [ 'percent' ] ,['gitbranch' , 'filetype']],
+ 20       \ },
+ 21       \
+ 22       \ 'inactive': {
+ 23       \   'left': [ [ 'filename', 'gitversion' ] ],
+ 24       \ },
+ 25        \    'component_function': {
+ 26       \   'gitbranch': 'FugitiveHead',
+ 27       \ },
+ 28       \       'component_expand': {
+ 29       \   'gitdiff': 'lightline#gitdiff#get',
+ 30       \ },
+ 31       \ 'component_type': {
+ 32       \   'gitdiff': 'middle',
+ 33       \ },
+ 34       \ }
+ 35
