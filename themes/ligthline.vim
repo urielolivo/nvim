@@ -32,4 +32,8 @@ let g:lightline = {
         \ 'component_type': {
         \   'gitdiff': 'middle',
         \ },
-        \}
+         \ 'separator': { 'left': '', 'right': '' },
+        \ 'subseparator': { 'left': '', 'right': '' }
+        \
+        \}  
+    

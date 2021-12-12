@@ -16,7 +16,7 @@ let g:webdevicons_enable = 1
 "let g:webdevicons_enable_airline_statusline = 1
 "let g:airline#extensions#whitespace#enabled = 0
 
-set laststatus=2
 set encoding=UTF-8
 
 colorscheme sonokai
+
