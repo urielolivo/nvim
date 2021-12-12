@@ -1,8 +1,6 @@
 let mapleader = " "
 
 
-
-
 nnoremap <C-n> :NERDTreeFind<CR>
 nnoremap <C-x> :q<CR>
 nnoremap <C-s> :w<CR>
